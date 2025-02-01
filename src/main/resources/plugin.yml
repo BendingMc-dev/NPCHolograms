@@ -1,0 +1,11 @@
+name: NPCHolograms
+version: '1.0'
+main: main.NPCHolograms
+api-version: '1.20'
+authors: [ RyanDusty ]
+description: Plugin which adds holograms above NPC's heads using integration from FancyHolograms, Citizens and BetonQuest
+website: https://github.com/RyanDusty
+depend:
+  - BetonQuest
+  - FancyHolograms
+  - Citizens
