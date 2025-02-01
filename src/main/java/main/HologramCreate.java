@@ -17,7 +17,7 @@ public class HologramCreate implements Listener {
         Player player = event.getClicker();
         if(npc != null)
             player.sendRawMessage("I just interacted with an NPC!");
-            Bukkit.getLogger().info("NPC:" + npc + "Player:" + player);
+        Bukkit.getLogger().info("NPC:" + npc + "Player:" + player);
         }
     }
 
