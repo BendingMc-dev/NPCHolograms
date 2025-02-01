@@ -10,7 +10,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
 
-public class HologramCreate implements Listener {
+public class NPCInteract implements Listener {
     @EventHandler
     public void NPCInteractStart(NPCRightClickEvent event) {
         NPC npc = event.getNPC();

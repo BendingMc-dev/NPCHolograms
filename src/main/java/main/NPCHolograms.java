@@ -9,7 +9,7 @@ public final class NPCHolograms extends JavaPlugin {
     @Override
     public void onEnable() {
 
-        getServer().getPluginManager().registerEvents(new HologramCreate(), this);
+        getServer().getPluginManager().registerEvents(new NPCInteract(), this);
 
 
         FancyHologramsPlugin hologramsLoaded = FancyHologramsPlugin.get();
